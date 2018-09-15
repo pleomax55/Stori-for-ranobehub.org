@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stori для сайта Ranobehub.org
 // @namespace    https://github.com/pleomax55/Stori-for-ranobehub.org
-// @version      0.2
+// @version      0.2.02
 // @author       pleomax55
 // @match        https://ranobehub.org/ranobe/*/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js

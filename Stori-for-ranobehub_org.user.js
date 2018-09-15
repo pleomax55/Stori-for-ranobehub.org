@@ -72,18 +72,22 @@
 	currentP--; sOpt('currentP', currentP);
 	if(currentP == 1){sOpt('scrollToP',false);}else{sOpt('scrollToP',true);}
       	for(var i=1;i<=maxP;i++){ if(i==currentP){ $(cRRC+' p#CurrentP').removeAttr('id');$(cRRC+' p').eq(currentP-1).attr('id','CurrentP'); slTP(50+bmN*2); } }
-	if(currentP == maxP){sOpt('currentP', 1);sOpt('scrollToP',false);}
+	if(currentP == maxP){sOpt('currentP', 1);sOpt('scrollToP',false); slTP(50+bmN*2);}
     }
     if((key==40||key==13||key==32||key==9) && currentP<maxP){
 	currentP++; sOpt('currentP', currentP);
 	if(currentP == 1){sOpt('scrollToP',false);}else{sOpt('scrollToP',true);}
       	for(var j=1;j<=maxP;j++){ if(j==currentP){ $(cRRC+' p#CurrentP').removeAttr('id');$(cRRC+' p').eq(currentP-1).attr('id','CurrentP'); slTP(bmN*2); } }
-	if(currentP == maxP){sOpt('currentP', 1);sOpt('scrollToP',false);}
+	if(currentP == maxP){sOpt('currentP', 1);sOpt('scrollToP',false); slTP(50+bmN*2);}
     }
   });
-  $(document).on("click", "#CurrentP", function(){
-    //alert("The paragraph was clicked.");
-    //localStorage.removeItem("storiSavedOpt");
+  $(document).on("click", ".__btn_toggle_chapter.read_nav__buttons__manage", function(){
+	sOpt('currentP', 1);sOpt('scrollToP',false); slTP(50+bmN*2);
+	//localStorage.removeItem("storiSavedOpt");
+  });
+  $(document).on("click", ".__btn_toggle_chapter", function(){
+	sOpt('currentP', 1);sOpt('scrollToP',false); slTP(50+bmN*2);
+	//localStorage.removeItem("storiSavedOpt");
   });
 
 })(jQuery);

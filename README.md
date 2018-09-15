@@ -1,5 +1,5 @@
 # Stori для сайта ranobehub.org
-<a href="https://github.com/pleomax55/Stori-for-ranobehub.org/raw/master/Stori%20-%20screenshot.png" target="_blank"><img src="https://github.com/pleomax55/Stori-for-ranobehub.org/raw/master/Stori%20-%20screenshot.png" height="200px"></a>
+<a href="https://github.com/pleomax55/Stori-for-ranobehub.org/raw/master/Stori%20-%20screenshot.png" target="_blank"> <img src="https://github.com/pleomax55/Stori-for-ranobehub.org/raw/master/Stori%20-%20screenshot.png" height="200px"></a>
 
 Работает в связке со <a href="https://userstyles.org/styles/164100/stori-ranobehub-org">стилем Stylus</a>
 

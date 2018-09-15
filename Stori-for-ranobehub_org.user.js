@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Stori для сайта Ranobehub.org
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/pleomax55/Stori-for-ranobehub.org
 // @version      0.2
 // @author       pleomax55
 // @match        https://ranobehub.org/ranobe/*/*

@@ -5,7 +5,7 @@
 
 <a href="https://github.com/pleomax55/Stori-for-ranobehub.org/raw/master/Stori-for-ranobehub_org.user.js">Установть скрипт</a> с помощью <a href="https://tampermonkey.net/">Tampermonkey</a>
 
-Версия: 0.2.03
+Версия: 0.2.05
 
 Функции скритпа:<br>
 1. Автоматическое движение до Следующего параграфа/абзаца
